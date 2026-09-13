@@ -10,8 +10,8 @@
 
 1. [x] Inspect the site structure, assets, Git state, and available account access.
 2. [x] Add a root entry page suitable for branch-based GitHub Pages hosting.
-3. [ ] Create and push the GitHub repository, then enable Pages.
-4. [ ] Verify the deployment and its public URL.
+3. [x] Create and push the GitHub repository, then enable Pages.
+4. [x] Verify the deployment and its public URL.
 
 ## Progress
 
@@ -21,7 +21,7 @@
 
 ## Current milestone
 
-- Create the repository and publish the first deployment.
+- Complete.
 
 ## Decisions
 
@@ -31,7 +31,8 @@
 ## Validation
 
 - Source resource references inspected.
-- Initial repository and deployment validation pending.
+- GitHub Pages build completed successfully.
+- Public root page, website page, hero image, MP4 video, and an encoded PDF download all returned HTTP 200.
 
 ## Blockers
 
