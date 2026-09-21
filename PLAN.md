@@ -12,7 +12,7 @@
 1. [x] Inspect the replacement site and repository state.
 2. [x] Validate local links, assets, and JavaScript syntax.
 3. [x] Replace the old site tree while preserving Git history and domain configuration.
-4. [ ] Commit, push, and verify the GitHub Pages deployment.
+4. [x] Commit, push, and verify the GitHub Pages deployment.
 
 ## Progress
 
@@ -23,7 +23,7 @@
 
 ## Current milestone
 
-- Commit, publish, and validate the production deployment.
+- Complete.
 
 ## Decisions
 
@@ -35,7 +35,9 @@
 
 - Local references: 0 missing.
 - JavaScript syntax: passed.
-- Production deployment: pending.
+- GitHub Pages build: passed.
+- HTTPS and custom-domain enforcement: enabled.
+- Production pages, stylesheet, script, image, video, and PDF checks: HTTP 200.
 
 ## Blockers
 
