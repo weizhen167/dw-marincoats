@@ -51,3 +51,12 @@
 - Decisions: keep the screenshot wording verbatim and synchronize visible copy with page/share descriptions.
 - Validation: exact-copy replacement and source-copy synchronization passed; local HTML references have 0 missing targets; JavaScript syntax and diff whitespace checks passed. GitHub Pages built commit 5053214 successfully; both public about pages returned HTTP 200 with the new copy in all 3 locations and the old copy absent. This buildless static site has no package test/lint/build scripts.
 - Blockers: none.
+
+## Homepage production-base image update — 2026-10-07
+
+- Scope: replace the homepage introduction's main factory photo with the supplied Shandong Dowill photo in both languages; preserve the laboratory inset and other uses of the existing factory photo.
+- Progress: added the supplied original PNG and updated both homepage references and ignored source copies.
+- Current milestone: validation and publication.
+- Decisions: retain the existing image layout and use a dedicated asset to avoid changing unrelated sections.
+- Validation: both pages differ only in the requested image reference and alt text; source copies match; both asset copies match the supplied file by SHA-256; local HTML links, JavaScript syntax, and diff whitespace checks passed. Publication and browser checks pending.
+- Blockers: none.
