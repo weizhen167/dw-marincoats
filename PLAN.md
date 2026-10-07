@@ -42,3 +42,12 @@
 ## Blockers
 
 - None.
+
+## About-page copy update — 2026-10-07
+
+- Scope: replace the highlighted introduction with the supplied Chinese and English wording; preserve headings and layout.
+- Progress: updated both live-source pages, their description metadata, and the ignored local source copies.
+- Current milestone: publication verification.
+- Decisions: keep the screenshot wording verbatim and synchronize visible copy with page/share descriptions.
+- Validation: exact-copy replacement and source-copy synchronization passed; local HTML references have 0 missing targets; JavaScript syntax and diff whitespace checks passed. This buildless static site has no package test/lint/build scripts.
+- Blockers: none.
