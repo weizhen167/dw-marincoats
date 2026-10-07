@@ -55,8 +55,8 @@
 ## Homepage production-base image update — 2026-10-07
 
 - Scope: replace the homepage introduction's main factory photo with the supplied Shandong Dowill photo in both languages; preserve the laboratory inset and other uses of the existing factory photo.
-- Progress: added the supplied original PNG and updated both homepage references and ignored source copies.
-- Current milestone: validation and publication.
+- Progress: added the supplied original PNG, updated both homepage references and ignored source copies, and published the replacement.
+- Current milestone: complete.
 - Decisions: retain the existing image layout and use a dedicated asset to avoid changing unrelated sections.
-- Validation: both pages differ only in the requested image reference and alt text; source copies match; both asset copies match the supplied file by SHA-256; local HTML links, JavaScript syntax, and diff whitespace checks passed. Publication and browser checks pending.
+- Validation: both pages differ only in the requested image reference and alt text; source copies match; both asset copies match the supplied file by SHA-256; local HTML links, JavaScript syntax, and diff whitespace checks passed. GitHub Pages built commit 4b9fdc6 successfully; both public homepages return HTTP 200 with the replacement reference, and the live PNG matches the original by SHA-256. Browser visual check confirms the new photo and preserved laboratory inset at the desktop breakpoint.
 - Blockers: none.
